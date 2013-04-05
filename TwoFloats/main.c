@@ -11,8 +11,17 @@
 int main(int argc, const char * argv[])
 {
 
-    // insert code here...
-    printf("Hello, World!\n");
+    // Declare first variable of type float
+    float firstNumber = 3.14;
+    
+    // Declare second variable of type float
+    float secondNumber = 42.0;
+    
+    // Declare third variable of type double
+    double theSum = firstNumber + secondNumber;
+    
+    // Print the result to the user
+    printf("The result is %f. \n", theSum);
+
     return 0;
 }
-
